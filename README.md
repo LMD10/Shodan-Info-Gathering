@@ -49,13 +49,17 @@ Shodan-Info-Gathering/
 ## How to Use
 
 1. Clone the repository
-2. Run the initialization script:
+2. Set your SHODAN API key as an environment variable
+```bash
+SHODAN_API_KEY=your_actual_api_key_here
+```
+3. Run the initialization script:
 ```bash
    bash scripts/shodan_init.sh
 ```
-3. Execute target scans:
+4. Execute target scans:
 
 bash scripts/shodan_scan_httpforever.sh
 bash scripts/shodan_scan_iana.sh
 
-4. View outputs in the docs/Screenshots/ folder or the PDF report
+5. View outputs in the docs/Screenshots/ folder or the PDF report
