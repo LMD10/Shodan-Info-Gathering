@@ -57,9 +57,6 @@ SHODAN_API_KEY=your_actual_api_key_here
 ```bash
    bash scripts/shodan_init.sh
 ```
-4. Execute target scans:
-
-bash scripts/shodan_scan_httpforever.sh
-bash scripts/shodan_scan_iana.sh
+4. Execute target scans either via the CLI or GUI for HTTP and HTTPS websites of your choice
 
 5. View outputs in the docs/Screenshots/ folder or the PDF report
